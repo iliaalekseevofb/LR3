@@ -14,24 +14,24 @@ public abstract class Dish {
   }
 
   // Методы
-  public final String getName() {
+  public String getName() {
     return this.name;
   }
-  public final void setName(String name) {
+  public void setName(String name) {
     this.name = name;
   }
 
-  public final String getMaterial() {
+  public String getMaterial() {
     return this.material;
   }
-  public final void setMaterial(String material) {
+  public void setMaterial(String material) {
     this.material = material;
   }
 
-  public final double getWeight() {
+  public double getWeight() {
     return this.weight;
   }
-  public final void setWeight(double weight) {
+  public void setWeight(double weight) {
     this.weight = weight;
   }
 
